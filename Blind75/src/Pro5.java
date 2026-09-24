@@ -1,5 +1,7 @@
 //Leetcode 53. Maximum Subarray
 
+//Kadane's Algorithm
+
 public class Pro5 {
     public int maxSubArray(int[] nums) {
         int currentSum = nums[0];

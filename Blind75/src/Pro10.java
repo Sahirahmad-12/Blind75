@@ -1,3 +1,5 @@
+// 1071:: Greatest Common Divisor of Strings
+
 public class Pro10 {
     public String gcdOfStrings(String str1, String str2) {
 

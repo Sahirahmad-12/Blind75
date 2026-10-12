@@ -1,3 +1,5 @@
+// Sliding Window
+
 public class L643MaximumAverageSubarrayI {
     public double findMaxAverage(int[] nums, int k) {
         int windowSum = 0;

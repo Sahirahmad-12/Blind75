@@ -1,0 +1,17 @@
+public class L2390RemovingStarsFromaString {
+    public String removeStars(String s) {
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < s.length(); i++){
+            char ch = s.charAt(i);
+
+            if(ch == '*'){
+                sb.deleteCharAt(sb.length()-1);
+            }else{
+                sb.append(ch);
+            }
+        }
+        return sb.toString();
+    }
+    public static void main(String[] args) {
+    }
+}
